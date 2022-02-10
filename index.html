@@ -1,12 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Work+Sans:wght@600&display=swap" rel="stylesheet"></head>
 <body>
-    <h1>Hello World</h1>
+    <!--Preloader-->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    <!--Navigation-->
+
+    <header>
+        <nav class="sticky">
+            <ul>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#my-work">Projects</a></li>
+              <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+          </nav>
+
+    <section class="hero">
+
+        <div class="hero-content">
+        
+           <h1 class="hero-title">
+                Cassie Simpson, <span class="title">Web Devloper</span>          
+            </h1>
+             
+           <h2 class="hero-subtitle">
+               <div class="container">
+                   <div class="typing">Let's make something great. </div>
+               </div>
+                
+           </h2>
+             
+           <button type="button" class="hero-button" onclick="location.href='#about-me'">
+                Learn More &raquo;
+           </button>
+        
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L60,69.3C120,75,240,85,360,106.7C480,128,600,160,720,186.7C840,213,960,235,1080,240C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#1b1e1f;"></path></svg>     -->
+
+</header>
+
+    <section id="about-me">
+        <h2 class="about-title">
+                    About Me
+            </h2>
+        <div class ="about">
+            <div class="bio">
+                <p class="bio-paragraph">After working in the IT industry for several years, I decided I wanted to get in touch with my creative side. I enjoy a good challenge, and am excited for the projects to come.
+                </p>
+            </div>
+            <div class="bio">   
+                <img class="bio-img" src="./assets/images/cassie.jpg" alt="Headshot of Cassie"/>
+        </div> 
+    </div>
+                  
+    </section>
+ <!--Portfolio Section Start-->
+ <section class="portfolio pt-100 pb-70" data-scroll-index="3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="heading text-center">
+                    <h6>Portfolio</h6>
+                    <h2>Work I Have Done</h2>
+                </div>
+                <div class="portfolio-filter text-center">
+                    <ul>
+                        <li class="sel-item" data-filter="*">All</li>
+                        <li data-filter=".design">Web Design</li>
+                        <li data-filter=".application">Applications</li>
+                        <li data-filter=".development">Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row portfolio-items">
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item application">
+                <div class="item-content">
+                    <img src="images/portfolio/img-1.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Application</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-1.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item design">
+                <div class="item-content">
+                    <img src="images/portfolio/img-2.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Web Design</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-2.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item development">
+                <div class="item-content">
+                    <img src="images/portfolio/img-3.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Application</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-3.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item design development">
+                <div class="item-content">
+                    <img src="images/portfolio/img-4.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Development</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-4.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item development application">
+                <div class="item-content">
+                    <img src="images/portfolio/img-5.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Web Design</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-5.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Portfolio Item-->
+            <div class="col-lg-4 col-md-6 item application development">
+                <div class="item-content">
+                    <img src="images/portfolio/img-6.jpg" alt="">
+                    <div class="item-overlay">
+                        <h6>Web Design</h6>
+                        <div class="icons">
+                            <span class="icon link">
+                                <a href="images/portfolio/img-6.jpg">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Portfolio Section End-->
+    
+    <!--Contact Me-->
+    <section id="contact-me">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="footer-row">  
+                <div class="footer-column">
+                    <div class="footer-navigation">
+                        <ul>
+                            <li>
+                                <a href="#about-me">About Me</a> 
+                            </li>
+                            <li>
+                                <a href="#my-work">My Work</a>
+                            </li> 
+                            <li>
+                                <a href="#contact-me">Contact Me</a>
+                            </li>   
+                        </ul>
+                    </div>
+                </div>  
+                <div class="footer-column">       
+                <div class="contact">
+                    <ul>
+                        <li>320-212-1654</li>
+                        <li><a href="mailto:cassie.s.simpson@gmail.com" class="contact">cassie.s.simpson@gmail.com</a></li>
+                        <li class="social-media"><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media"><a href="https://github.com/cassie-s"><i class="fa fa-github"></i></a></li>
+                    </ul>    
+                </div>
+            </div>
+        </div>
+    </div> 
+        
+    </section>
+
+
+   
+
+    <div class="footer">
+        <p class="copyright">
+            Copyright © 2021. Created by Cassie Simpson
+        </p>        
 </body>
 </html>
