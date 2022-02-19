@@ -37,7 +37,7 @@
              
            <h2 class="hero-subtitle">
                <div class="typingcontainer">
-                   <div class="typing">Let's make something great. </div>
+                   <div class="typing">Let's make something together.</div>
                </div>
                 
            </h2>
@@ -51,52 +51,64 @@
 
 </header>
 
-    <section id="about-me">
-        <h2 class="about-title">
-                    About Me
-            </h2>
-        <div class ="about">
-            <div class="bio">
-                <p class="bio-paragraph">After working in the IT industry for several years, I decided I wanted to get in touch with my creative side. I enjoy a good challenge, and am excited for the projects to come.
-                </p>
+ <!--About Section Start-->
+ <section class="about"  data-scroll-index="1" id="about-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <!--About Image-->
+                <div class="about-img">
+                    <img src="./assets/images/cassie.jpg" alt="">
+                </div>
             </div>
-            <div class="bio">   
-                <img class="bio-img" src="./assets/images/cassie.jpg" alt="Headshot of Cassie"/>
-        </div> 
+            <div class="col-lg-7 col-md-6">
+                <!--About Content-->
+                <div class="about-content">
+                    <div class="about-heading">
+                        <h2>About Me</h2>
+                        <span>Web Developer</span>
+                    </div>
+                    <p>I'm <b>Cassie Simpson. </b>I love making things - and continually making them better. My goal is to create accessible, mobile-first, (beautiful) websites that clearly communicate with visitors. </p>
+                    <p>I have experience creating websites for small to medium businesses. I recently graduated from from the University of Minnesota Full Stack Coding Bootcamp where I learned a ton of skills that I'm ready to put into practice. I hope to work with you!</p>
+                    <button class="cv-button">Download CV</button>
+                </div>
+            </div>
+        </div>
     </div>
-                  
-    </section>
+</section>
+<!--About Section End-->
  <!--Portfolio Section Start-->
- <section class="portfolio pt-100 pb-70" data-scroll-index="3">
+ <section class="portfolio" data-scroll-index="3" id="my-work">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="heading text-center">
-                    <h6>Portfolio</h6>
-                    <h2>Work I Have Done</h2>
+                    <h2>Portfolio</h2>
                 </div>
                 <div class="portfolio-filter text-center">
-                    <ul>
+                    <!-- <ul>
                         <li class="sel-item" data-filter="*">All</li>
-                        <li data-filter=".design">Front End</li>
-                        <li data-filter=".application">Back End</li>
-                        <li data-filter=".development">Full Stack</li>
+                        <li data-filter=".frontend">Front End</li>
+                        <li data-filter=".backend">Back End</li>
+                        <li data-filter=".fullstack">Full Stack</li>
                         <li data-filter=".wordpress">Wordpress</li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="row portfolio-items">
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application">
+            <div class="col-lg-6 col-md-6 item fullstack">
                 <div class="item-content">
                     <img class="portfolio-img" src="assets/images/portfolio/book-search.png" alt="">
                     <div class="item-overlay">
-                        <h6>Full Stack Exercise Track</h6>
+                        <h6 class="bigger-h6">Book Search</h6>
+                        <h6>Using the Google Books API, logged in users can search for and save books they want to read.</h6> 
+                        
                         <div class="icons">
                             <span class="icon link">
-                                <a href="https://guarded-anchorage-60502.herokuapp.com/login">
-                                    <i class="fa-solid fa-globe"></i>
+                                <a href="https://murmuring-cliffs-82000.herokuapp.com/">
+                                    <i class="fa fa-search"></i>
                                 </a>
                             </span>
                         </div>
@@ -104,14 +116,15 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item design">
+            <div class="col-lg-6 col-md-6 item fullstack">
                 <div class="item-content">
                     <img class="portfolio-img" src="assets/images/portfolio/budget-tracker.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Budget Tracker</h6>
+                        <h6>Keep track of your budget with this PWA</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-2.jpg">
+                                <a href="https://safe-escarpment-97040.herokuapp.com/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -120,14 +133,15 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item development">
+            <div class="col-lg-6 col-md-6 item wordpress">
                 <div class="item-content">
                     <img src="assets/images/portfolio/canopy.png" alt="">
                     <div class="item-overlay">
-                        <h6>Application</h6>
+                        <h6 class="bigger-h6">Wordpress</h6>
+                        <h6>Example of a Wordpress site I built.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-3.jpg">
+                                <a href="canopyit.com">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -136,14 +150,15 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item design development">
+            <div class="col-lg-6 col-md-6 item design frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/code-quiz.png" alt="">
                     <div class="item-overlay">
-                        <h6>Development</h6>
+                        <h6 class="bigger-h6">Code Quiz</h6>
+                        <h6>A quiz built with Vanilla JS that saves scores in local storage.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-4.jpg">
+                                <a href="https://cassie-s.github.io/code-quiz/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -152,14 +167,15 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item development application">
+            <div class="col-lg-6 col-md-6 item development backend">
                 <div class="item-content">
                     <img class="portfolio-img" src="assets/images/portfolio/employee-manager.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Employee Database</h6>
+                        <h6>This MySQL database application allows you to view, add, update, and delete departments, roles, and employees.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-5.jpg">
+                                <a href="https://github.com/cassie-s/employee-tracker">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -168,14 +184,15 @@
                 </div>
             </div>
             <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application fullstack">
                 <div class="item-content">
                     <img src="assets/images/portfolio/full stack.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Full Stack Exercise Track</h6>
+                        <h6>This application allows logged in users to track, edit, and delete exercises. Uses the full MERN stack.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://guarded-anchorage-60502.herokuapp.com/login">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -184,14 +201,15 @@
                 </div>
             </div>
                         <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/git-it-done.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Git It Done</h6>
+                        <h6>Search for a Github user to see how many open issues they have.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://cassie-s.github.io/git-it-done/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -200,14 +218,15 @@
                 </div>
             </div>
                         <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application wordpress">
                 <div class="item-content">
                     <img src="assets/images/portfolio/martin-mcallister.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Martin McAllister</h6>
+                        <h6>Wordpress website.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="martinmcallister.com">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -216,14 +235,15 @@
                 </div>
             </div>
                         <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/note-taker.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Note Taker</h6>
+                        <h6>A simple note taker that stores data on a client-side server.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://gory-nightmare-07197.herokuapp.com/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -232,14 +252,15 @@
                 </div>
             </div>
                         <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/password-generator.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Password Generator</h6>
+                        <h6>Creates a randomized password based on user input.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://cassie-s.github.io/password-generator/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -248,14 +269,15 @@
                 </div>
             </div>
                                     <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application fullstack">
                 <div class="item-content">
                     <img src="assets/images/portfolio/photo-port.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Photo Port</h6>
+                        <h6>Demonstration website that uses React to render images conditionally.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://cassie-s.github.io/photo-port/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -264,14 +286,15 @@
                 </div>
             </div>
                                     <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application fullstack">
                 <div class="item-content">
                     <img src="assets/images/portfolio/pizza-hunt.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Pizza Hunt</h6>
+                        <h6>Full Stack app where users can create pizzas and comment on other pizzas.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://warm-everglades-56282.herokuapp.com/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -280,14 +303,15 @@
                 </div>
             </div>
                                     <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application wordpress">
                 <div class="item-content">
                     <img src="assets/images/portfolio/poly-tex.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Poly-Tex</h6>
+                        <h6>Wordpress website.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="poly-texdistribution.com">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -296,14 +320,15 @@
                 </div>
             </div>
                                     <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application backend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/readme-generator.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">ReadMe Generator</h6>
+                        <h6>Command-line app that creates a Markdown file based on user input.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://github.com/cassie-s/readme-generator">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -312,14 +337,15 @@
                 </div>
             </div>
                                                 <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application wordpress">
                 <div class="item-content">
                     <img src="assets/images/portfolio/schuler.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Schuler Publicity</h6>
+                        <h6>Squarespace Website</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="schulersaid.com">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -328,14 +354,15 @@
                 </div>
             </div>
                                                 <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application fullstack">
                 <div class="item-content">
                     <img src="assets/images/portfolio/shop-shop.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Shop-shop</h6>
+                        <h6>An E-Commerce demonstration app built with the MERN Stack</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://damp-plains-67428.herokuapp.com/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -344,14 +371,15 @@
                 </div>
             </div>
                                                 <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/taskmaster-pro.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Taskmaster Pro</h6>
+                        <h6>Keep track of your goals with this KanBan app.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://cassie-s.github.io/taskmaster-pro/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -360,14 +388,15 @@
                 </div>
             </div>
                                                 <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application development">
+            <div class="col-lg-6 col-md-6 item application frontend">
                 <div class="item-content">
                     <img src="assets/images/portfolio/weather-dashboard.png" alt="">
                     <div class="item-overlay">
-                        <h6>Web Design</h6>
+                        <h6 class="bigger-h6">Weather Dashboard</h6>
+                        <h6>Get the 5-day forecast in your city using the Weather API.</h6>
                         <div class="icons">
                             <span class="icon link">
-                                <a href="assets/images/portfolio/img-6.jpg">
+                                <a href="https://cassie-s.github.io/weather-dashboard/">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </span>
@@ -380,46 +409,46 @@
 </section>
 <!--Portfolio Section End-->
     
-    <!--Contact Me-->
-    <section id="contact-me">
-            <h2 class="section-title">Let's Connect</h2>
-            <div class="footer-row">  
-                <div class="footer-column">
-                    <div class="footer-navigation">
-                        <ul>
-                            <li>
-                                <a href="#about-me">About Me</a> 
-                            </li>
-                            <li>
-                                <a href="#my-work">My Work</a>
-                            </li> 
-                            <li>
-                                <a href="#contact-me">Contact Me</a>
-                            </li>   
-                        </ul>
-                    </div>
-                </div>  
-                <div class="footer-column">       
-                <div class="contact">
+<!--Contact Me-->
+<section id="contact-me">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="footer-row">  
+            <div class="footer-column">
+                <div class="footer-navigation">
                     <ul>
-                        <li>320-212-1654</li>
-                        <li><a href="mailto:cassie.s.simpson@gmail.com" class="contact">cassie.s.simpson@gmail.com</a></li>
-                        <li class="social-media"><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="social-media"><a href="https://github.com/cassie-s"><i class="fa fa-github"></i></a></li>
-                    </ul>    
+                        <li>
+                            <a href="#about-me">About Me</a> 
+                        </li>
+                        <li>
+                            <a href="#my-work">My Work</a>
+                        </li> 
+                        <li>
+                            <a href="#contact-me">Contact Me</a>
+                        </li>   
+                    </ul>
                 </div>
+            </div>  
+            <div class="footer-column">       
+            <div class="contact">
+                <ul>
+                    <li>320-212-1654</li>
+                    <li><a href="mailto:cassie.s.simpson@gmail.com" class="contact">cassie.s.simpson@gmail.com</a></li>
+                    <li class="social-media"><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="social-media"><a href="https://github.com/cassie-s"><i class="fa fa-github"></i></a></li>
+                </ul>    
             </div>
         </div>
-    </div> 
+    </div>
+</div> 
         
-    </section>
-
-
-   
+</section>
 
     <div class="footer">
-        <p class="copyright">
-            Copyright © 2021. Created by Cassie Simpson
-        </p>        
+        <div class="copyright">&copy;
+            <script>document.write(new Date().getFullYear());</script>, Cassie Simpson.
+        </div>
+       
+    </div>
+      
 </body>
 </html>
