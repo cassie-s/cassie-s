@@ -560,15 +560,13 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     nav li {
       padding: 0.5rem 0;
     }
-    .typingcontainer {
-      max-width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
     .typing {
-      word-wrap: break-word;
+      display: none;
     }
+  
     .portfolio-img {
-      max-width: 100%;
+      max-width: 90%;
+      display: block;
+      margin: auto;
     }
   } 
