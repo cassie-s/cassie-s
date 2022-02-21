@@ -546,10 +546,10 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    section.hero {
+    /* section.hero {
       margin-top: -70px;
       background-position: 75% 25%;
-    }
+    } */
     nav {
       flex-direction: column;
     }
@@ -560,7 +560,15 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     nav li {
       padding: 0.5rem 0;
     }
-    section.portfolio .portfolio-items .item .item-content {
-      max-width: 500px;
+    .typingcontainer {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .typing {
+      word-wrap: break-word;
+    }
+    .portfolio-img {
+      max-width: 100%;
     }
   } 
