@@ -542,6 +542,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
     nav {
       flex-direction: column;
     }
@@ -551,5 +552,8 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     }
     nav li {
       padding: 0.5rem 0;
+    }
+    section.portfolio .portfolio-items .item .item-content {
+      max-width: 500px;
     }
   } 
