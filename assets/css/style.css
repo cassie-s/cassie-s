@@ -132,6 +132,10 @@ header {
     overflow: hidden;
 }
 
+a:visited {
+  color: #ffff
+}
+
 nav {
   display: flex;
   justify-content:space-between; 
@@ -542,7 +546,10 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    section.hero {
+      margin-top: -70px;
+      background-position: 75% 25%;
+    }
     nav {
       flex-direction: column;
     }
