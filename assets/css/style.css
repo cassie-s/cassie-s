@@ -565,8 +565,45 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     }
   
     .portfolio-img {
-      max-width: 90%;
+      max-width: 100%;
       display: block;
       margin: auto;
     }
+    section.portfolio .portfolio-items .item .item-content:before {
+      content: "";
+      position: absolute;
+      height: 85%;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      left: 10px;
+      background-color: #bdcc98;
+      opacity: 0;
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+      -webkit-transition: .5s all ease;
+      -o-transition: .5s all ease;
+      transition: .5s all ease;
   } 
+
+  .footer-navigation {
+    height: 100%;
+    margin-left: 40px;
+    font-size: 15px;
+  }
+
+  .contact ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  .social-media {
+    display: inline;
+    font-size: 25px;
+    padding: 10px;
+  }
+}
