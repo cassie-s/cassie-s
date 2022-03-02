@@ -13,3 +13,4 @@ MongoDB, MySQL, Git, GitHub, Command Line, Heroku, Jest, VSCode
 
 LinkedIn: https://www.linkedin.com/in/cassie-simpson/
 Portfolio: https://cassie-s.github.io/cassie-s/
+Email: mailto:cassie.s.simpson@gmail.com
