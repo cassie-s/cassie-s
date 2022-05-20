@@ -1,454 +1,597 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Work+Sans:wght@600&display=swap" rel="stylesheet"></head>
-<body>
-    <!--Preloader-->
-    <div class="preloader">
-        <div class="loader"></div>
-    </div>
-    <!--Navigation-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-    <header>
-        <nav class="sticky">
-            <ul>
-              <li><a href="#about-me">About</a></li>
-              <li><a href="#my-work">Projects</a></li>
-              <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-          </nav>
+	<!-- 
+	//////////////////////////////////////////////////////
 
-    <section class="hero">
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-        <div class="hero-content">
-        
-           <h1 class="hero-title">
-                Cassie Simpson, <span class="title">Web Devloper</span>          
-            </h1>
-             
-           <h2 class="hero-subtitle">
-               <div class="typingcontainer">
-                   <div class="typing">Let's make something together.</div>
-               </div>
-                
-           </h2>
-             
-           <button type="button" class="hero-button" onclick="location.href='#about-me'">
-                Learn More &raquo;
-           </button>
-        
-        </div>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L60,69.3C120,75,240,85,360,106.7C480,128,600,160,720,186.7C840,213,960,235,1080,240C1200,245,1320,235,1380,229.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#1b1e1f;"></path></svg>     -->
+	//////////////////////////////////////////////////////
+	 -->
 
-</header>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
- <!--About Section Start-->
- <section class="about"  data-scroll-index="1" id="about-me">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-6">
-                <!--About Image-->
-                <div class="about-img">
-                    <img src="./assets/images/cassie.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-7 col-md-6">
-                <!--About Content-->
-                <div class="about-content">
-                    <div class="about-heading">
-                        <h2>About Me</h2>
-                        <span></span>
-                    </div>
-                    <p>I'm <b>Cassie Simpson. </b>I love making things - and continually making them better. My goal is to create accessible, mobile-first, (beautiful) websites that clearly communicate with visitors. </p>
-                    <p>I have experience creating websites for small to medium businesses, and recently earned a Certificate in Full Stack Web Development where I learned a ton of skills that I'm ready to put into practice. I hope to work with you!</p>
-                    <button class="cv-button"><a href="./assets/Cassie Simpson Resume.pdf" download="newfilename">Download CV</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--About Section End-->
- <!--Portfolio Section Start-->
- <section class="portfolio" data-scroll-index="3" id="my-work">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="heading text-center">
-                    <h2>Portfolio</h2>
-                </div>
-                <div class="portfolio-filter text-center">
-                    <!-- <ul>
-                        <li class="sel-item" data-filter="*">All</li>
-                        <li data-filter=".frontend">Front End</li>
-                        <li data-filter=".backend">Back End</li>
-                        <li data-filter=".fullstack">Full Stack</li>
-                        <li data-filter=".wordpress">Wordpress</li>
-                    </ul>
-                </div> -->
-            </div>
-        </div>
-        <div class="row portfolio-items">
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/book-search.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Book Search</h6>
-                        <h6>Using the Google Books API, logged in users can search for and save books they want to read.</h6> 
-                        
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://murmuring-cliffs-82000.herokuapp.com/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/budget-tracker.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Budget Tracker</h6>
-                        <h6>Keep track of your budget with this PWA</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://safe-escarpment-97040.herokuapp.com/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item wordpress">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/canopy.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Wordpress</h6>
-                        <h6>Example of a Wordpress site I built.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://canopyit.com">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item design frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/code-quiz.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Code Quiz</h6>
-                        <h6>A quiz built with Vanilla JS that saves scores in local storage.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/code-quiz/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item development backend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/employee-manager.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Employee Database</h6>
-                        <h6>This MySQL database application allows you to view, add, update, and delete departments, roles, and employees.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://github.com/cassie-s/employee-tracker">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/full stack.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Full Stack Exercise Track</h6>
-                        <h6>This application allows logged in users to track, edit, and delete exercises. Uses the full MERN stack.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://guarded-anchorage-60502.herokuapp.com/login">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/git-it-done.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Git It Done</h6>
-                        <h6>Search for a Github user to see how many open issues they have.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/git-it-done/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application wordpress">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/martin-mcallister.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Martin McAllister</h6>
-                        <h6>Wordpress website.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="martinmcallister.com">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/note-taker.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Note Taker</h6>
-                        <h6>A simple note taker that stores data on a client-side server.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://gory-nightmare-07197.herokuapp.com/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/password-generator.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Password Generator</h6>
-                        <h6>Creates a randomized password based on user input.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/password-generator/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                    <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/photo-port.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Photo Port</h6>
-                        <h6>Demonstration website that uses React to render images conditionally.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/photo-port/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                    <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/pizza-hunt.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Pizza Hunt</h6>
-                        <h6>Full Stack app where users can create pizzas and comment on other pizzas.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://warm-everglades-56282.herokuapp.com/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                    <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application wordpress">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/poly-tex.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Poly-Tex</h6>
-                        <h6>Wordpress website.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="poly-texdistribution.com">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                    <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application backend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/readme-generator.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">ReadMe Generator</h6>
-                        <h6>Command-line app that creates a Markdown file based on user input.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://github.com/cassie-s/readme-generator">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                                <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application wordpress">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/schuler.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Schuler Publicity</h6>
-                        <h6>Squarespace Website</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="schulersaid.com">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                                <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application fullstack">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/shop-shop.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Shop-shop</h6>
-                        <h6>An E-Commerce demonstration app built with the MERN Stack</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://damp-plains-67428.herokuapp.com/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                                <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/taskmaster-pro.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Taskmaster Pro</h6>
-                        <h6>Keep track of your goals with this KanBan app.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/taskmaster-pro/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                                                <!--Portfolio Item-->
-            <div class="col-lg-6 col-md-6 item application frontend">
-                <div class="item-content">
-                    <img class="portfolio-img" src="assets/images/portfolio/weather-dashboard.png" alt="">
-                    <div class="item-overlay">
-                        <h6 class="bigger-h6">Weather Dashboard</h6>
-                        <h6>Get the 5-day forecast in your city using the Weather API.</h6>
-                        <div class="icons">
-                            <span class="icon link">
-                                <a href="https://cassie-s.github.io/weather-dashboard/">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Portfolio Section End-->
-    
-<!--Contact Me-->
-<section id="contact-me">
-        <h2 class="section-title">Let's Connect</h2>
-        <div class="footer-row">  
-            <div class="footer-column">
-                <div class="footer-navigation">
-                    <ul>
-                        <li>
-                            <a href="#about-me">About Me</a> 
-                        </li>
-                        <li>
-                            <a href="#my-work">My Work</a>
-                        </li> 
-                        <li>
-                            <a href="#contact-me">Contact Me</a>
-                        </li>   
-                    </ul>
-                </div>
-            </div>  
-            <div class="footer-column">       
-            <div class="contact">
-                <ul>
-                    <li>320-212-1654</li>
-                    <li><a href="mailto:cassie.s.simpson@gmail.com" class="contact">cassie.s.simpson@gmail.com</a></li>
-                    <li class="social-media"><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-media"><a href="https://github.com/cassie-s"><i class="fa fa-github"></i></a></li>
-                </ul>    
-            </div>
-        </div>
-    </div>
-</div> 
-        
-</section>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="footer">
-        <div class="copyright">&copy;
-            <script>document.write(new Date().getFullYear());</script>, Cassie Simpson.
-        </div>
-       
-    </div>
-      
-</body>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/cover_bg_3.jpg); height: 545px; background-position: 0px 0px;" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<h1><span>Cassie Simpson</span></h1>
+							<h3><span>Web Developer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="mailto:cassie.s.simpson@gmail.com"><i class="icon-mail"></i></a></li>
+									<li><a href="https://github.com/cassie-s"><i class="icon-github"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="icon-linkedin2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Cassie Simpson</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+1 320-212-1654</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">cassie.s.simpson@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">cassie-s.github.io/cassie-s</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">500 Beech Street, Chaska MN 55318</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>I'm Cassie Simpson. I love making things - and continually making them better. My goal is to create accessible, mobile-first, (beautiful) websites and applications that clearly communicate with visitors.
+						I have experience creating websites for small to medium businesses, and have a Certificate in Full Stack Web Development from the University of Minnesota.</p>
+					<p>In my free time, you will find me walking my dogs and enjoying the outdoors as much as possible.</p>
+						<ul class="fh5co-social-icons">
+							<li><a href="mailto:cassie.s.simpson@gmail.com"><i class="icon-mail"></i></a></li>
+							<li><a href="https://github.com/cassie-s"><i class="icon-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/cassie-simpson/"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="resume-divider">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#edf2eb" fill-opacity="1" d="M0,320L40,293.3C80,267,160,213,240,208C320,203,400,245,480,240C560,235,640,181,720,181.3C800,181,880,235,960,240C1040,245,1120,203,1200,181.3C1280,160,1360,160,1400,160L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+		  </svg>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Web Developer Internship</h3>
+									<span class="company">IHS Pharmacy - 2022 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>Contributed to the frontend of a Jail Management System utilizing atomic design, Typescript, and React.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">IT Support Specialist</h3>
+									<span class="company">Canopy IT Solutions - 2018 - Current</span>
+								</div>
+								<div class="timeline-body">
+									<p>Developed various websites for clients using Wordpress, effectively marketing individual brands to increase audience engagement.</p>
+									<p>Diagnosed and provided solutions for a range of software, hardware, and connectivity issues.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Public Relations Intern</h3>
+									<span class="company">Schuler Publicity - 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>Refactored website: <a href="schulersaid.com">schulersaid.com</a> </p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelor's Degree</h3>
+									<span class="company">Bethel University - 2013 - 2017</span>
+								</div>
+								<div class="timeline-body">
+									<p>Communications</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Certificate in Full Stack Web Development</h3>
+									<span class="company">University of Minnesota - 2021 - 2022</span>
+								</div>
+								<div class="timeline-body">
+									<p>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.
+									</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+				<div class="text-center">
+					<button class="btn btn-work">
+						<a href="./images/Cassie Simpson Resume.pdf" download="Cassie Simpson Resume">Download My Full Resume</a>
+					</button>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Skills</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-html5-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-css3-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-javascript-plain colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-jquery-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-bootstrap-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-nodejs-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-mysql-plain colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-mongodb-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-express-original colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-handlebars-plain-wordmark"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-react-original-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-tailwindcss-original-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-typescript-plain colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-git-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-figma-plain colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-webpack-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-wordpress-plain-wordmark"></i>
+							</span>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="devicon-vscode-plain-wordmark colored"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="resume-divider">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#20715a" fill-opacity="1" d="M0,128L60,128C120,128,240,128,360,112C480,96,600,64,720,69.3C840,75,960,117,1080,138.7C1200,160,1320,160,1380,160L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/book-search.png);">
+						<div class="desc">
+							<h3>Book Search</h3>
+							<span>Using the Google Books API, logged in users can search for and save books they want to read.</span>
+							<a href="https://murmuring-cliffs-82000.herokuapp.com/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/book-search">
+							<i class="fa fa-github"></i>
+						</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/coding-quiz.png);">
+						<div class="desc">
+							<h3>Coding Quiz</h3>
+							<span>A quiz built with Javascript that saves scores in local storage.</span>
+							<a href="https://cassie-s.github.io/code-quiz/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/code-quiz">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/shop-shop.png);">
+						<div class="desc">
+							<h3>Shop-shop</h3>
+							<span>An E-Commerce demonstration app built with the MERN Stack.</span>
+							<a href="https://damp-plains-67428.herokuapp.com/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/shop-shop-redux">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/canopy.png);">
+						<div class="desc">
+							<h3>CanopyIT</h3>
+							<span>Wordpress website</span>
+							<a href="https://canopyit.com">
+								<i class="fa fa-globe"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/note-taker.png);">
+						<div class="desc">
+							<h3>Note Taker</h3>
+							<span>A simple note taker that stores data on a client-side server.</span>
+							<a href="https://gory-nightmare-07197.herokuapp.com/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/note-taker">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/photo-port.png);">
+						<div class="desc">
+							<h3>React Photo Port</h3>
+							<span>Demonstration website that uses React to render images conditionally.</span>
+							<a href="https://cassie-s.github.io/photo-port/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/photo-port">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/ptex.png);">
+						<div class="desc">
+							<h3>Poly-Tex</h3>
+							<span>Wordpress website</span>
+							<a href="https://poly-texdistribution.com">
+								<i class="fa fa-globe"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/weather-dashboard.png);">
+						<div class="desc">
+							<h3>Weather Dashboard</h3>
+							<span>Get the 5-day forecast in your city using the Weather API.</span>
+							<a href="https://cassie-s.github.io/weather-dashboard/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/weather-dashboard">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center col-padding animate-box">
+					<div class="work" style="background-image: url(images/password-generator.png);">
+						<div class="desc">
+							<h3>Password Generator</h3>
+							<span>Creates a randomized password based on user input.</span>
+							<a href="https://cassie-s.github.io/password-generator/">
+								<i class="fa fa-globe"></i>
+							</a>
+							<a href="https://github.com/cassie-s/password-generator">
+							<i class="fa fa-github"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<button class="btn btn-work">
+					<a href="https://www.github.com/cassie-s">See more on GitHub</a>
+				</button>	
+			</div>
+		</div>
+	</div>
+	
+
+	
+	
+	<div id="fh5co-started" class="">
+		<div class="container">
+			<!-- <div class="row animate-box"> -->
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>I am looking for a full-time Web Developer position and am open to freelance work.</p>
+					<button class="btn btn-hireme">
+						<a href="https://google.com">Contact Me</a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/desk2.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="https://forms.un-static.com/forms/40bf280f64101ac3afd864549a5a654661419d8d"
+			method="POST">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say hi! Please fill out the Captcha after submitting the form, or email me directly at cassie.s.simpson@gmail.com""></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-work">
+				</div>
+
+			</form>	
+		</div>
+	</div>
+
+	<div id="map" class="fh5co-map"></div>
+	</div>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<script>document.write(new Date().getFullYear());</script>, Cassie Simpson.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
