@@ -2,7 +2,7 @@
 
 # Hello Word, I'm Cassie! :wave:
 
-I am a Front End Developer from Minneapolis, MN. I recently gained a certificate in Full Stack Web Development from the University of Minnesota. I can't wait to work with you!
+I am a Full Stack Developer from Minneapolis, MN. I recently gained a certificate in Full Stack Web Development from the University of Minnesota. I can't wait to work with you!
 
 # 💻 My Tech Stack
 
