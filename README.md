@@ -2,12 +2,12 @@
 
 # Hello Word, I'm Cassie! :wave:
 
-I am a Front End Developer from Minneapolis, MN. I recently gained a certificate in Full Stack Web Development from the University of Minnesota. I can't wait to work with you!
+I am a Front End Developer from Minneapolis, MN. I have gained a certificate in Full Stack Web Development from the University of Minnesota. I can't wait to work with you!
 
 # 💻 My Tech Stack
 
-JavaScript, HTML, CSS, mySQL, React, jQuery, Bootstrap, Node.js (Express.js, Inquirer.js, File System, Sequelize), Handlebars.js
-MongoDB, MySQL, Git, GitHub, Command Line, Heroku, Jest, VSCode
+JavaScript, HTML, CSS, React, jQuery, Bootstrap, Node.js, Handlebars.js
+MongoDB, MySQL, Git, GitHub, Heroku, Jest, MongoDB, TypeScript
 
 # ⛓ My Links
 
