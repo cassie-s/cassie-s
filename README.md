@@ -2,12 +2,11 @@
 
 # Hello Word, I'm Cassie! :wave:
 
-I am a Full Stack Developer from Minneapolis, MN. I have a certificate in Full Stack Web Development from the University of Minnesota. I can't wait to work with you!
+I am a Full Stack Developer from Minneapolis, MN. I have a certificate in Full Stack Web Development from the University of Minnesota and am currently working as a Ruby on Rails developer at the University of Minnesota.
 
 # 💻 My Tech Stack
 
-JavaScript, HTML, CSS, React, jQuery, Bootstrap, Node.js, Handlebars.js
-MongoDB, MySQL, Git, Heroku, Jest, MongoDB, TypeScript
+Ruby on Rails, JavaScript, HTML, CSS, React, jQuery, Oracle, MySQL, Git, TypeScript
 
 # ⛓ My Links
 
