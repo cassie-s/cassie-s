@@ -1382,8 +1382,10 @@ pre code {
 
   .col-md-8 {
     width: 66.66667%;
+  }
+
+  .intro {
     padding-left: 75px;
-    
   }
 
   .col-md-9 {
