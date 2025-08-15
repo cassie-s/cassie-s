@@ -549,6 +549,10 @@ mark,
   text-align: center;
 }
 
+.special_button {
+  margin: 50px;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -1378,6 +1382,8 @@ pre code {
 
   .col-md-8 {
     width: 66.66667%;
+    padding-left: 75px;
+    
   }
 
   .col-md-9 {
